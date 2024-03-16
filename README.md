@@ -7,7 +7,7 @@ Here is the official repository : [link](https://github.com/zhuz-bit/PODB/tree/m
 
 # **First of All**
 
-![image](https://github.com/zhuz-bit/PODB/blob/main/paper/image15.png)
+![image](paper/image15.png)
 
 
 # **Dataset**
