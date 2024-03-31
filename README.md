@@ -2,7 +2,7 @@
 # (UPLOADING...)
 Here is the official repository : [link](https://github.com/zhuz-bit/PODB/tree/main)
 ## We will share our work in three parts: **Dataset**, **Framework**, and **Evaluation**.
-**----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 # **First of All**
 In particular, the polarimetric imaging technique has demonstrated significant advantages when handling object detection in road scenes. In adverse weather conditions, polarization imaging selectively receives and analyzes the vibration direction and intensity of light under different polarization directions, providing information about surface material properties, textures, and shapes [19], [20], reducing interference from haze particles, suppressing scattering from media particles, and eliminating interference from raindrops and snowflakes, thus providing richer and more accurate image information.
@@ -21,7 +21,7 @@ The proposed PODB aims to furnish researchers with an effective platform for the
 
 <img src="https://github.com/zhuz-bit/PODB/blob/main/paper/image000.png" width="610px">
 
-**----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 
 # **Dataset**
