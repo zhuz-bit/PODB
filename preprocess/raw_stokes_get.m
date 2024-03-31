@@ -35,3 +35,26 @@
       end
       ii = 0.25*I0+0.25*I90+0.25*I45+0.25*I135;
      %%%%%%%%%%3. Calculating the Stokes parameters %%%% 
+    
+     IS0 = im2uint8(mat2gray(ii));
+     q  = 0.5*I0 - 0.5*I90;
+     %q  = im2uint8(mat2gray(q1));  %% 将图像数组转换成unit8类型
+     u = 0.5*I45 - 0.5*I135;
+     %u = im2uint8(mat2gray(u1));
+     dolp = sqrt(q.*q + u.*u);
+     Dolp = dolp./ii;
+     DOLP = im2uint8(mat2gray(Dolp));
+     aop = (1/2) * atan(u./q);
+     AOP = im2uint8(mat2gray(aop));
+    
+    imwrite(uint8(IS0),['D:\test\polar\zhuzhen\S0\',num2str(i),'.tiff'])
+    imwrite(uint8(q),['D:\test\polar\S1\',num2str(i),'.tiff'])
+    imwrite(uint8(u),['D:\test\polar\S2\',num2str(i),'.tiff'])
+    imwrite(uint8(DOLP),['D:\test\polar\DoLP\',num2str(i),'.tiff'])
+    imwrite(uint8(AOP),['D:\test\polar\AoP\',num2str(i),'.tiff'])
+    imwrite(uint8(I0),['D:\test\polar\0\',num2str(i),'.tiff'])
+    imwrite(uint8(I45),['D:\test\polar\45\',num2str(i),'.tiff'])
+    imwrite(uint8(I90),['D:\test\polar\90\',num2str(i),'.tiff'])
+    imwrite(uint8(I135),['D:\test\polar\135\',num2str(i),'.tiff'])
+    sta = fclose(fid);
+    end
