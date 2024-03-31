@@ -38,7 +38,7 @@
     
      IS0 = im2uint8(mat2gray(ii));
      q  = 0.5*I0 - 0.5*I90;
-     %q  = im2uint8(mat2gray(q1));  %% 将图像数组转换成unit8类型
+     %q  = im2uint8(mat2gray(q1));  
      u = 0.5*I45 - 0.5*I135;
      %u = im2uint8(mat2gray(u1));
      dolp = sqrt(q.*q + u.*u);
