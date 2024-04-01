@@ -59,6 +59,25 @@ As the first large-scale benchmark polarized dataset specifically tailored for o
 ----------------------------------------------------------------------------------------------------------------
 # **Framework**
 
+We propose a Physics-based Multi-scale Image Fusion Cascaded Object Detection Neural Network model (PMIF-CODNN). It incorporates a multi-scale fusion module and a multi-decision adaptive attention mechanism, where the polarization-guided multi-scale image fusion technique effectively aggregates features by extracting and merging polarization and intensity images.
+
+<div align=center>
+<img src="https://github.com/zhuz-bit/PODB/blob/main/paper/image88.png" width="610px">
+</div>
+
+----------------------------------------------------------------------------------------------------------------
+# **Evaluation**
+The fundamental evaluation criteria for algorithms lack uniformity and tend to be subjective. Consequently, it becomes necessary to incorporate multiple indicators into the evaluation process to circumvent the constraints imposed by relying solely on a single metric;
+
+
+General object datasets encompass a diverse range of object classes, which inherently increases the complexity of learning. However, they may not adequately capture object characteristics under adverse weather conditions. Consequently, only a select few pre-trained models exhibit consistently superior performance on the PODB dataset in comparison to their performance on the COCO dataset;
+
+
+In complex adverse weather conditions, the utilization of polarimetric imaging, which offers a multitude of modalities, proves to be more effective in characterizing objects under conditions of low light and intense reflections when contrasted with traditional sensors.
+
+<div align=center>
+<img src="https://github.com/zhuz-bit/PODB/blob/main/paper/plot.png" width="510px">
+</div>
 
 **************************************************************************
 # **Citation**
