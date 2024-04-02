@@ -33,11 +33,11 @@ The proposed PODB aims to furnish researchers with an effective platform for the
 
 
 # **Dataset**
-The link to the RAW images of the PODB dataset is: [dataset_link](链接：https://pan.baidu.com/s/1B2KEE0b5c9HsTerZb5PLGA?pwd=1x2s)
+The link to the RAW images of the PODB dataset is: [dataset_link](https://pan.baidu.com/s/1B2KEE0b5c9HsTerZb5PLGA?pwd=1x2s)
 
 As the first large-scale benchmark polarized dataset specifically tailored for object detection in adverse weather conditions in road scenes, the proposed PODB encompasses 12 different adverse weather conditions, 8 types of road scenes, and 3 subsets of preprocessed images. It also annotates tens of thousands of object detection positions and category information in a large-scale real polarized target dataset. 
 
-**Specifically, the PODB dataset is obtained by capturing real raw image data under different adverse weather conditions using a color focal plane polarization camera (LUCID-PHX050S-PC , Sensor size is 11.1 mm (Type 2/3”), with a frame rate of 22 FPS (24 FPS) @ 5.0 MP, and a pixel size of (H) (V); with a lens of M2514-MP2 25 mm f/1.4).**
+**Specifically, the PODB dataset is obtained by capturing real raw image data under different adverse weather conditions using a color focal plane polarization camera (LUCID-PHX050S-PC@2048x2448 , Sensor size is 11.1 mm (Type 2/3”), with a frame rate of 22 FPS (24 FPS) @ 5.0 MP, and a pixel size of 3.45μm(H) x 3.45μm(V); with a lens of M2514-MP2 25 mm f/1.4).**
 
 ```
   |-- rawbegin
