@@ -40,7 +40,8 @@ As the first large-scale benchmark polarized dataset specifically tailored for o
 **Specifically, the PODB dataset is obtained by capturing real raw image data under different adverse weather conditions using a color focal plane polarization camera (LUCID-PHX050S-PC@2048x2448 , Sensor size is 11.1 mm (Type 2/3”), with a frame rate of 22 FPS (24 FPS) @ 5.0 MP, and a pixel size of 3.45μm(H) x 3.45μm(V); with a lens of M2514-MP2 25 mm f/1.4).**
 
 ```
-  |-- rawbegin
+|-- rawbegin
+  |-- polar
     |-- 0
     |-- 45
     |-- 90
@@ -50,6 +51,7 @@ As the first large-scale benchmark polarized dataset specifically tailored for o
     |-- S0
     |-- S1
     |-- S2
+    ...
   |-- out
     |-- 1.raw
     |-- 2.raw
