@@ -8,7 +8,7 @@ Here is the official repository : [repository_link](https://github.com/zhuz-bit/
 The polarimetric imaging technique has demonstrated significant advantages when handling object detection in road scenes. In adverse weather conditions, polarization imaging selectively receives and analyzes the vibration direction and intensity of light under different polarization directions, providing information about surface material properties, textures, and shapes, reducing interference from haze particles, suppressing scattering from media particles, and eliminating interference from raindrops and snowflakes, thus providing richer and more accurate image information.
 
 <div align=center>
-<img src="https://github.com/zhuz-bit/PODB/blob/main/paper/%E5%9B%BE%E7%89%875.png" width="610px">
+<img src="https://github.com/zhuz-bit/PODB/blob/main/paper/image555.png" width="610px">
 </div>
 
 This study introduces the Polarized Object Detection Benchmark (PODB), a benchmark dataset that incorporates the physical dimension of optical polarization imaging to tackle object detection challenges in complex road scenes under adverse weather conditions. It specifically includes the establishment of a large-scale polarization dataset, the proposal of an enhanced detection model, and extensive algorithm evaluation.
