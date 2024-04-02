@@ -5,7 +5,7 @@ Here is the official repository : [repository_link](https://github.com/zhuz-bit/
 ----------------------------------------------------------------------------------------------------------------
 
 # **First of All**
-In particular, the polarimetric imaging technique has demonstrated significant advantages when handling object detection in road scenes. In adverse weather conditions, polarization imaging selectively receives and analyzes the vibration direction and intensity of light under different polarization directions, providing information about surface material properties, textures, and shapes [19], [20], reducing interference from haze particles, suppressing scattering from media particles, and eliminating interference from raindrops and snowflakes, thus providing richer and more accurate image information.
+The polarimetric imaging technique has demonstrated significant advantages when handling object detection in road scenes. In adverse weather conditions, polarization imaging selectively receives and analyzes the vibration direction and intensity of light under different polarization directions, providing information about surface material properties, textures, and shapes, reducing interference from haze particles, suppressing scattering from media particles, and eliminating interference from raindrops and snowflakes, thus providing richer and more accurate image information.
 
 <div align=center>
 <img src="https://github.com/zhuz-bit/PODB/blob/main/paper/%E5%9B%BE%E7%89%875.png" width="610px">
@@ -33,15 +33,14 @@ The proposed PODB aims to furnish researchers with an effective platform for the
 
 
 # **Dataset**
-The link to the original image of the PODB dataset is: [dataset_link](链接：https://pan.baidu.com/s/1B2KEE0b5c9HsTerZb5PLGA?pwd=1x2s)
+The link to the RAW images of the PODB dataset is: [dataset_link](链接：https://pan.baidu.com/s/1B2KEE0b5c9HsTerZb5PLGA?pwd=1x2s)
 
 As the first large-scale benchmark polarized dataset specifically tailored for object detection in adverse weather conditions in road scenes, the proposed PODB encompasses 12 different adverse weather conditions, 8 types of road scenes, and 3 subsets of preprocessed images. It also annotates tens of thousands of object detection positions and category information in a large-scale real polarized target dataset. 
 
 **Specifically, the PODB dataset is obtained by capturing real raw image data under different adverse weather conditions using a color focal plane polarization camera (LUCID-PHX050S-PC , Sensor size is 11.1 mm (Type 2/3”), with a frame rate of 22 FPS (24 FPS) @ 5.0 MP, and a pixel size of (H) (V); with a lens of M2514-MP2 25 mm f/1.4).**
 
 ```
-|-- rawbegin
-  |-- out
+  |-- rawbegin
     |-- 0
     |-- 45
     |-- 90
@@ -82,7 +81,7 @@ In complex adverse weather conditions, the utilization of polarimetric imaging, 
 **************************************************************************
 # **Citation**
 
-If you use this toolbox or benchmark in your research, please cite this project.
+If you use this benchmark dataset in your research, please cite this project.
 
 ```
 @article{zhu2024podb,
